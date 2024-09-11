@@ -9,11 +9,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: [
-      "https://maran-gnews.web.app",
-      "http://localhost:3000",
-      "https://maran-gnews.firebaseapp.com",
-    ], // Replace with your frontend URL
+    origin: [ ], // Replace with your frontend URLs Here
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
