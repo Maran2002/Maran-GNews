@@ -17,7 +17,7 @@ app.use(
 
 const PORT = process.env.PORT || 5000;
 
-const GNEWS_API_KEY = process.env.GNEWS_API_KEY;
+const GNEWS_API_KEY = process.env.GNEWS_API_KEY; // set your GNews api key here or in environment variables
 const GNEWS_BASE_URL = "https://gnews.io/api/v4";
 
 // Fetch news from gnews.io API
