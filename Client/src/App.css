@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  background-color: #16423C;
+  color: #E9EFEC;
+  margin: 0;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 2rem;
+}
+.header span{
+  font-size: 0.8rem;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
