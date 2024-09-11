@@ -13,7 +13,7 @@ const NewsList = () => {
   const [page, setPage] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const BASE_URL = "https://maran-gnews-backend.vercel.app";
+  const BASE_URL = "";  //set your server side base url here
 
   const fetchNews = async () => {
     try {
